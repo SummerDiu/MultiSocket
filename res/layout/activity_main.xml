@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000EE"
+            android:textSize="25dip"
+            android:text="语音群" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000EE"
+            android:textSize="18dip"
+            android:text="说：">
+        </TextView>
+
+        <Button android:text="开始说话"
+            android:id="@+id/startEncode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00AA00">
+
+        </Button>
+
+        <Button
+            android:text="停止说话"
+            android:id="@+id/stopEncode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#AA0000">
+        </Button>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000EE"
+            android:textSize="18dip"
+            android:text="听：">
+        </TextView>
+
+        <Button android:text="开始倾听"
+            android:id="@+id/startPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00AA00">
+        </Button>
+
+        <Button android:text="停止倾听"
+            android:id="@+id/stopPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#AA0000">
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
